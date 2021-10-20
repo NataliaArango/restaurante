@@ -1,9 +1,14 @@
-import React from 'react';
-
+import React,{Fragment} from 'react';
+import Header from './Components/Header'
+import Footer from './Components/Footer';
 
 function App() {
   return (
-  <h1>Restaurante Sal&Sal</h1>
+    <Fragment>
+          <Header/>
+          
+          <Footer/> 
+    </Fragment>
   );
 }
 
