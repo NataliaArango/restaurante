@@ -10,6 +10,7 @@ import Compras from './Components/Compras';
 import Footer from './Components/Footer' ;
 import "./app.css";
 
+
 function App() {
   return (
     <Router>

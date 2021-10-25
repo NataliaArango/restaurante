@@ -1,8 +1,15 @@
 import React from 'react';
-
+import Datos from '../utils/datos.json';
+import Platos from './Productos';
 
 const Menu = () => {
-    return ( <h2>Desde Menu</h2> );
+    return (
+        <div>
+            {Datos.PlatosRes.map((e) =>(
+            <Platos datos={e} key={e.id}/>
+            ))}
+        </div>
+    );
 }
  
 export default Menu;

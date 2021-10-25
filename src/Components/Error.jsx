@@ -1,7 +1,11 @@
 import React from 'react';
 
-const Error = () => {
-    return ( <h3>Desde error</h3>);
+const Error = ({error}) => {
+    return ( 
+        <div class="alert alert-warning" role="alert">
+            {error}
+        </div>
+    );
 }
  
 export default Error;
