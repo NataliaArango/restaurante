@@ -9,6 +9,7 @@ import Nosotros from './Components/Nosotros';
 import Compras from './Components/Compras';
 import Footer from './Components/Footer' ;
 
+
 function App() {
   return (
     <Router>
