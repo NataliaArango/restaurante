@@ -1,10 +1,12 @@
-import React from 'react';
-
+import React,{Fragment} from 'react';
+import swal from 'sweetalert';
 const Error = ({error}) => {
+    
     return ( 
-        <div class="alert alert-warning" role="alert">
-            {error}
-        </div>
+        <Fragment>
+            {swal({error}, "warning")};
+        </Fragment>
+        
     );
 }
  
