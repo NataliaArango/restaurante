@@ -3,6 +3,7 @@ import swal from 'sweetalert';
 //import Error from './Error';
 import emailjs from 'emailjs-com'
 import styled from '@emotion/styled'
+import {Link} from 'react-router-dom'
 const Reserva = () => {
 
     const [Error, UpdateError] = useState(false);
@@ -198,7 +199,7 @@ const Reserva = () => {
                                 </div>
                             </div>
                  </div>
-                        <button type="submit" className=" btn  btn-danger m-4" >Volver</button>
+                         <Link to={'/servicios'} className='btn btn-danger m-4 '>Volver</Link>
                         <button type="submit" className=" btn  btn-success m-4" >Reservar</button>
                    </fieldset>
 

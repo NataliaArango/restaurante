@@ -18,13 +18,13 @@
        {"nombre":"Plato16", "descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi","id":"16","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Menu%2Fmenu9.jpg?alt=media&token=f124d6d3-99ca-455f-ad02-41ed138c5a72"},
        {"nombre":"Plato17", "descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi","id":"17","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Menu%2Fsundae-357972_1920.jpg?alt=media&token=918bda11-e0e3-47e1-912a-a611ae78bf9c"}
     ],
-    "Servicios":[
-        { "nombre":"Fiesta Infantil", "id":"18","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2FFiesta%20infantil.png?alt=media&token=78008e67-7347-49a3-be19-3d61743166c6"},
-        { "nombre":"Propuesta", "id":"19","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2FPropuesta.png?alt=media&token=cc8afc65-9a42-4e1b-b8e5-287af7a97cec"},
-        { "nombre":"Aniversario", "id":"20","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Faniversario-min.png?alt=media&token=0997ad16-2f19-429a-a8a2-06bfb5f1d617"},
-        { "nombre":"Cena", "id":"21","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Fcena.png?alt=media&token=7bb5421c-00c3-4430-b963-f82f08000da2"},
-        { "nombre":"Cumpleaños", "id":"22","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Fcumpleaños.png?alt=media&token=a69992f8-b11b-4494-9390-1f5f840febfd"},
-        { "nombre":"Despedida","id":"23","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Fdespedida.png?alt=media&token=1e646767-0b7c-4c62-bdce-1a4df8dbf8f6"}
+    "ServiciosRes":[
+        { "nombre":"Fiesta Infantil", "id":"18","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2FFiesta%20infantil.png?alt=media&token=78008e67-7347-49a3-be19-3d61743166c6","descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi"},
+        { "nombre":"Propuesta", "id":"19","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2FPropuesta.png?alt=media&token=cc8afc65-9a42-4e1b-b8e5-287af7a97cec","descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi"},
+        { "nombre":"Aniversario", "id":"20","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Faniversario-min.png?alt=media&token=0997ad16-2f19-429a-a8a2-06bfb5f1d617","descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi"},
+        { "nombre":"Cena", "id":"21","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Fcena.png?alt=media&token=7bb5421c-00c3-4430-b963-f82f08000da2","descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi"},
+        { "nombre":"Cumpleaños", "id":"22","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Fcumpleaños.png?alt=media&token=a69992f8-b11b-4494-9390-1f5f840febfd","descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi"},
+        { "nombre":"Despedida","id":"23","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Servicios%2Fdespedida.png?alt=media&token=1e646767-0b7c-4c62-bdce-1a4df8dbf8f6","descripcion":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita reprehenderit. Sequi"}
     ],
     "Contactanos":[
         
