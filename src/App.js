@@ -8,6 +8,7 @@ import Contactenos from './Components/Contactenos';
 import Nosotros from './Components/Nosotros';
 import Compras from './Components/Compras';
 import Footer from './Components/Footer' ;
+import Inicio from './Components/inicio' ;
 import "./app.css";
 
 
@@ -16,6 +17,7 @@ function App() {
     <Router>
       <Header/>
         <Switch>
+            <Route exact path ="/inicio" component={Inicio}/>
             <Route exact path ="/" component={Menu}/>
             <Route exact path ="/servicios" component={Servicios}/>
             <Route exact path ="/servicios/reserva" component={Reserva}/>
