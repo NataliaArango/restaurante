@@ -96,6 +96,7 @@ const Nosotros = () => {
       </div>
     </section> 
 
+
          </div>
     
         );
