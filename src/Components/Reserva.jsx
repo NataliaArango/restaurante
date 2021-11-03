@@ -88,7 +88,7 @@ const Reserva = () => {
               >
                    <fieldset>
                        <Contenedor >Realizar Reserva</Contenedor>
-                       <div className="row">
+                       <div className="so row">
                            <div className="col-md-4">
                                <div className="form-group">
                                    <label className="m-4">Nombre</label>
