@@ -8,7 +8,7 @@ import Contactenos from './Components/Contactenos';
 import Nosotros from './Components/Nosotros';
 import Compras from './Components/Compras';
 import Footer from './Components/Footer' ;
-import Inicio from './Components/inicio' ;
+import Inicio from './Components/Inicio' ;
 import "./app.css";
 
 
