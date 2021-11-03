@@ -46,7 +46,7 @@
 body{
     font-family: Arial, Helvetica, sans-serifs;
     font-size: 18px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Header%2Fheader1.png?alt=media&token=2892dc07-ca41-4478-a3c4-3c756e26b46f);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Header%2Fheader3.png?alt=media&token=a95ddf62-6f59-4677-9ab5-d646b6e46047);
     text-align: center;
 }
 .btn{
@@ -141,3 +141,32 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+/*NOSOTROS*/
+
+/* Secciones */
+#equipo{
+    
+    padding: 40px 0 40px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card1{
+    background-color: #CBEEF3;
+}
+#testimonios {
+    background: #ecc5c5;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.estiloTestimonios {
+    color: black;
+}
+H1{
+    margin: 30px 30px 30px 0px;
+    font-size: 60px;
+    font-weight: bold ;
+    position: relative;
+  }
