@@ -13,12 +13,12 @@ const Menu = () => {
                 </div>
 
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button type="button">Menu descargable</button>
+                    <button type="button" className="btn m-4">Menu descargable</button>
                 </div>
 
                 <h2 className="encabezado">Realiza pedidos en Linea</h2>
 
-                <div className="col-10 p-5 row">
+                <div className="col-12 p-5 m-5 row">
                     {DateService.MuestraMenuRes.map((e)=>(
                         <Productos 
                             MuestraMenuRes={e} key={e.id}/>   
