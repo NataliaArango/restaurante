@@ -28,5 +28,8 @@
     ],
     "Contactanos":[
         
+    ],
+    "LogoCircle":[
+        { "nombre":"logoCircle","id":"24","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Logos%2Flogocircle.png?alt=media&token=9910b245-3c41-4207-b7b9-2d11081add66","descripcion":" Logo circular"}
     ]
 }

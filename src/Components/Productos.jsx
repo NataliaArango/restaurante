@@ -1,11 +1,8 @@
 import React from 'react'
 
-function Platos({datos}) {
-    return (
-        <div>
-            <img src={datos.url}></img>
-        </div>
-    )
-}
 
-export default Platos
+const Productos = () => {
+    return ( <h2>Desde Productos</h2> );
+}
+ 
+export default Productos;
