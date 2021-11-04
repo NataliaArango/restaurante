@@ -1,19 +1,17 @@
 import React,{useState} from 'react';
-import {Link} from 'react-router-dom'
-import {Button,Modal } from 'antd';
+import {Link} from 'react-router-dom';
+import {Button,Modal,ModalHeader,ModalBody,ModalFooter,FormGroup,Label} from 'reactstrap';
 const Productos = ({MuestraMenuRes}) => {
-  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [isOpen, setisOpen] = useState(false);
   const showModal = () => {
-    setIsModalVisible(true);
+    setisOpen(true);
   };
 
-  const handleOk = () => {
-    setIsModalVisible(false);
+  const CloseModal = () => {
+    setisOpen(false);
   };
 
-  const handleCancel = () => {
-    setIsModalVisible(false);
-  };
+
     return (  
       <div className="card col-md-5 m-lg-4">
         <img src={MuestraMenuRes.url} className="card-img-top img-responsive center-d-inline-block"/>
@@ -25,16 +23,33 @@ const Productos = ({MuestraMenuRes}) => {
 
         <div className="card-footer">
          <>
-         <Button type="primary" onClick={showModal}>
-             Open Modal
+         <Button className="btn-success" onClick={showModal}>
+             Ver Plato
          </Button>
-        <Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
+        <Modal isOpen={isOpen}>
+          <ModalHeader>
+            Emcabezado
+          </ModalHeader>
+          <ModalBody>
+            <FormGroup>  
+              <div className="col-10 justify-content-center row">
+                 <img src={MuestraMenuRes.url} className="center-d-inline-block " /> 
+                  </div>
+            </FormGroup>
+            <FormGroup>
+            <Label>{MuestraMenuRes.nombre}</Label> 
+            {MuestraMenuRes.descripcion}
+            </FormGroup>
+          </ModalBody>
+          <ModalFooter>
+          <Button className="btn-danger"onClick={CloseModal}>
+             Cerrar
+         </Button >
+          <Link to={'/menu/carrito'} className='btn btn-success m-4'>Agregar al carrito</Link>
+          </ModalFooter>
         </Modal>
         </>
-          <Link to={'/menu/carrito'} className='btn btn-success m-4'>Agregar al carrito</Link>
+          
         </div>
       </div>
     );
