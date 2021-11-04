@@ -1,3 +1,4 @@
+
 .footer{
     background-color: #DD2D4A;
 }
@@ -19,6 +20,7 @@
 }
 .log{
     align-content: center;
+    text-align: center;
 }
 .selection2{
     overflow: hidden;
@@ -34,49 +36,21 @@
     float: left;
     margin-right: 15%;
 }
-.card{
-    width: 18rem;
-    text-align: center;
-    background-color: #CBEEF3;
-    width: 25%;
-    margin: 0px;
-    margin-right: 60%;
-}
-body{
+
+.todo{
     font-family: Arial, Helvetica, sans-serifs;
     font-size: 18px;
+   text-align: center;
+}
+body{
     background-image: url(https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Header%2Fheader3.png?alt=media&token=a95ddf62-6f59-4677-9ab5-d646b6e46047);
-    text-align: center;
+   
 }
-.btn{
-    background-color: #DD2D4A;
-    border: 0;
-    border-radius: 3px;
-    border-color: #880D1E;
-    font-size: 24px;
-    color: #880d1e;
-}
-.btn:hover{
-    background-color: #CBEEF3;
-    color: #880d1e;
-}
+
 .FondoFest{
     background-color: #F26A8D;
 }
 
-
-section {
-    padding: 20px 0;
-}
-
-
-
-section .section-title {
-    text-align: center;
-    color: #880D1E;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
 #footer {
     background: #DD2D4A !important;
 }
@@ -168,13 +142,17 @@ H1{
     font-size: 60px;
     font-weight: bold ;
     position: relative;
+   
+  }
+  .historia{
+    color: #880D1E;
   }
   /* Estilo de los comentarios en Nosotros */
 .comentarios {
     margin: 20px 0;   
    }
    
-   .form_comentarios textarea {
+.form_comentarios textarea {
        width: 100%;
        height: 84px;
        max-width: 100%;
@@ -187,47 +165,93 @@ H1{
        margin-bottom: 20px;
    }
    
-   .form_comentarios .btn {
+.form_comentarios .btn {
        background: #4b65d1;
        border-radius: 0;
        color: #fff;
        margin-bottom: 20px;
    }
    
-   .form_comentarios .btn:hover {
+.form_comentarios .btn:hover {
        box-shadow: 0px 0px 9px rgba(0,0,0,.35);
    }
    
-   .media {
+.media {
        border-top: 1px solid #bfbfbf;
        padding-top: 20px;
    }
    
-   .media img {
+.media img {
        margin-right: 20px;
    }
    
-   .media .nombre {
+.media .nombre {
        color: #4b65d1;
        margin-bottom: 0;
    }
    
-   .media .nombre span {
+.media .nombre span {
        font-size: 12px;
        color: #464646;
        margin-left: 10px;
    }
    
-   .media .comentario {
+.media .comentario {
        margin-top: 10px;
    }
    
-   .media .botones {
+.media .botones {
        margin-bottom: 10px;
    }
    
-   .media .botones a {
+.media .botones a {
        color: #acacac;
        font-size: 14px;
        margin-left: 20px;
-   }
+}
+
+
+.Serv{
+    color: #880D1E;
+}
+.menu1{
+    align-content: center;
+    text-align: center;
+    color: #880D1E;
+}
+.juntmenu{
+    overflow: hidden;
+}
+.card{
+    width: 18rem;
+    text-align: center;
+    background-color: #CBEEF3;
+    width: 25%;
+    margin: 0px;
+    margin-right: 60%;
+}
+.card2{
+    text-align: center;
+    color: #880D1E;
+}
+.card-text1{
+    font-weight: bold ;
+}
+.btn {
+    background-color: #DD2D4A;
+    border: 0;
+    border-radius: 3px;
+    border-color: #880D1E;
+    font-size: 24px;
+    color: #880d1e;
+}
+.btn:hover{
+    background-color: #CBEEF3;
+    color: #880d1e;
+}
+.gmodal{
+    text-align: center;
+    color: #880D1E;
+    align-content: center;
+
+}

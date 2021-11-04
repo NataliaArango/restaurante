@@ -4,19 +4,22 @@ import Productos from './Productos';
 
 const Menu = () => {
     return  (
-        <div className="container">
+        <div className="menu1 container">
 
             <div className="row justify-content-center">
-                <h2 className="mt-5 mb-5 m-lg-5 col-md-9 display-3">Animate a probar nuestros platillos</h2>
-                <div className="col-md-12 mb-5">
-                    <p className="text-justify-content-center blockquote">Tenemos gran variedad de platillos para todos los gustos</p>
-                </div>
+               <h2 className="mt-5 mb-5 m-lg-5 col-md-9 display-3 ">Animate a probar nuestros platillos</h2>
+                <div class="juntmenu">
+                    <div className="col-md-12 mb-5">
+                        <p className="text-justify-content-center blockquote">Tenemos gran variedad de platillos para todos los gustos</p>
+                    </div>
 
-                <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button type="button" className="btn m-4">Menu descargable</button>
-                </div>
+                    <div className="gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" className="btn m-4">Menu descargable</button>
+                    </div>
 
-                <h2 className="encabezado">Realiza pedidos en Linea</h2>
+                    <h3 className="encabezado">Realiza pedidos en Linea</h3>
+                </div>
+                
 
                 <div className="col-12 p-5 m-5 row">
                     {DateService.MuestraMenuRes.map((e)=>(

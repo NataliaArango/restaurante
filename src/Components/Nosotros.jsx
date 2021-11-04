@@ -5,7 +5,7 @@ const Nosotros = () => {
     return ( 
          <div>
 
-<section id="historia">
+    <section class="historia">
       <div class="container mt-5">
         <div class="row">
 

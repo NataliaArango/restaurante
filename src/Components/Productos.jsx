@@ -27,27 +27,29 @@ const Productos = ({MuestraMenuRes}) => {
              Ver Plato
          </Button>
         <Modal isOpen={isOpen}>
-          <ModalHeader>
-            Emcabezado
-          </ModalHeader>
-          <ModalBody>
-            <FormGroup>  
-              <div className="col-10 justify-content-center row">
-                 <img src={MuestraMenuRes.url} className="center-d-inline-block " /> 
-                  </div>
-            </FormGroup>
-            <FormGroup>
-            <Label>{MuestraMenuRes.nombre}</Label> 
-            {MuestraMenuRes.descripcion}
-            </FormGroup>
-          </ModalBody>
-          <ModalFooter>
-          <Button className="btn-danger"onClick={CloseModal}>
-             Cerrar
-         </Button >
-          <Link to={'/menu/carrito'} className='btn btn-success m-4'>Agregar al carrito</Link>
-          </ModalFooter>
-        </Modal>
+          <div class="gmodal">
+              <ModalHeader>
+              <h3 className="encabezado">ENCABEZADO</h3>
+              </ModalHeader>
+              <ModalBody>
+                <FormGroup>  
+                  <div className="imagenproduct justify-content-center row">
+                    <img src={MuestraMenuRes.url} className="center-d-inline-block " /> 
+                      </div>
+                </FormGroup>
+                <FormGroup>
+                <Label>{MuestraMenuRes.nombre}</Label> 
+                {MuestraMenuRes.descripcion}
+                </FormGroup>
+              </ModalBody>
+              <ModalFooter>
+              <Button className="btn-danger"onClick={CloseModal}>
+                Cerrar
+            </Button >
+              <Link to={'/menu/carrito'} className='btn btn-success m-4'>Agregar al carrito</Link>
+              </ModalFooter>
+              </div>
+            </Modal>
         </>
           
         </div>
