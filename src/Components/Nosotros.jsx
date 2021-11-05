@@ -4,24 +4,21 @@ import React from 'react';
 const Nosotros = () => {
     return ( 
          <div>
+<section id="historia">
+      <div className="container mt-5">
+        <div className="row">
 
-    <section class="historia">
-      <div class="container mt-5">
-        <div class="row">
-
-          <div class="col-md-5">
+          <div className="col-md-5">
             <img src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Logos%2Flogo.png?alt=media&token=95fe0f42-ec7d-464a-ad41-8cabcdd30303" class= "rounded img-fluid" width="100%"/>
           </div>
 
-          <div class="col-md-6 my-auto">
+          <div className="col-md-6 my-auto">
             <h1>Nuestra Historia</h1>
-            <p class= "mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eligendi soluta ipsum enim rem dolorem ipsa doloremque eum, corrupti delectus sapiente hic ex temporibus, est, eveniet doloribus! Enim dignissimos saepe excepturi dolor quam sequi reprehenderit commodi voluptatum beatae deleniti eveniet et doloremque adipisci animi harum quibusdam, repudiandae maxime unde fugit illo est numquam accusantium magni. Dolorum molestiae quo repellendus ducimus nihil excepturi voluptates numquam ab esse nostrum ex, quis ad, in dolores possimus! Libero at eos ex dolorum quod nulla!</p>
+            <p className= "mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eligendi soluta ipsum enim rem dolorem ipsa doloremque eum, corrupti delectus sapiente hic ex temporibus, est, eveniet doloribus! Enim dignissimos saepe excepturi dolor quam sequi reprehenderit commodi voluptatum beatae deleniti eveniet et doloremque adipisci animi harum quibusdam, repudiandae maxime unde fugit illo est numquam accusantium magni. Dolorum molestiae quo repellendus ducimus nihil excepturi voluptates numquam ab esse nostrum ex, quis ad, in dolores possimus! Libero at eos ex dolorum quod nulla!</p>
           </div>
         </div>
       </div>
     </section>  
-
-
 
     <section id="equipo">
       
@@ -29,7 +26,7 @@ const Nosotros = () => {
         <div class="row">
           <div class="col-md-4 ml- 5 mt-1 mb-5">
             <div class="card1 h-100">
-              <img src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Fpersonal2%402x.jpg?alt=media&token=093ad224-dc41-418f-93d2-831ba7a19847" class="card-img-top rounded-circle" width="80%" height="300px" alt="..."/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Fpersonal2%402x.jpg?alt=media&token=093ad224-dc41-418f-93d2-831ba7a19847" className="card-img-top rounded-circle imag"  alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">Juana Escobar</h5>
                 <p class="card-text">Encargada</p>

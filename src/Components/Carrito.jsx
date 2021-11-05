@@ -1,7 +1,7 @@
-import React from 'react';
-
-const Carrito = () => {
-    return ( <h2>Desde Carrtito</h2> );
+import React,{useState} from 'react';
+const Carrito = ({platos}) => {
+    
+    return ( <h2>Desde carrito</h2>);
 }
  
 export default Carrito;

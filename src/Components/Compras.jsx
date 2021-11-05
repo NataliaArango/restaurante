@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const Compras = () => {
-    return ( <h2>Desde compras</h2> );
+const Compras = ({product}) => {
+    return ( <h2>{product.nombre}</h2> );
 }
  
 export default Compras;

@@ -66,7 +66,7 @@ const Contactenos = () => {
                     </div>
                     </div>
                     <div class="col-mb-12">
-                    <button class="btn btn-primary" id="enviar" type="submit">Enviar</button>
+                    <button className="btn btn-primary mt-4 mb-5" id="enviar" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>

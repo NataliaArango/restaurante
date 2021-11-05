@@ -1,16 +1,17 @@
 import React,{useState} from 'react';
-import {Link} from 'react-router-dom';
 import {Button,Modal,ModalHeader,ModalBody,ModalFooter,FormGroup,Label} from 'reactstrap';
-const Productos = ({MuestraMenuRes}) => {
+const Productos = ({MuestraMenuRes,setcarrocompra,carrocompra}) => {
   const [isOpen, setisOpen] = useState(false);
   const showModal = () => {
     setisOpen(true);
   };
-
   const CloseModal = () => {
     setisOpen(false);
   };
-
+ const AgregarProducto = ()=>{
+  // const plato = carrocompra.filter(plato=>plato.id === MuestraMenuRes.id);
+      setcarrocompra([...carrocompra,...MuestraMenuRes]);
+ }
 
     return (  
       <div className="card col-md-5 m-lg-4">
@@ -23,33 +24,31 @@ const Productos = ({MuestraMenuRes}) => {
 
         <div className="card-footer">
          <>
-         <Button className="btn-success" onClick={showModal}>
+         <Button className="btn btn-success" onClick={showModal}>
              Ver Plato
          </Button>
         <Modal isOpen={isOpen}>
-          <div class="gmodal">
-              <ModalHeader>
-              <h3 className="encabezado">ENCABEZADO</h3>
-              </ModalHeader>
-              <ModalBody>
-                <FormGroup>  
-                  <div className="imagenproduct justify-content-center row">
-                    <img src={MuestraMenuRes.url} className="center-d-inline-block " /> 
-                      </div>
-                </FormGroup>
-                <FormGroup>
-                <Label>{MuestraMenuRes.nombre}</Label> 
-                {MuestraMenuRes.descripcion}
-                </FormGroup>
-              </ModalBody>
-              <ModalFooter>
-              <Button className="btn-danger"onClick={CloseModal}>
-                Cerrar
-            </Button >
-              <Link to={'/menu/carrito'} className='btn btn-success m-4'>Agregar al carrito</Link>
-              </ModalFooter>
-              </div>
-            </Modal>
+          <ModalHeader>
+            Encabezado
+          </ModalHeader>
+          <ModalBody>
+            <FormGroup>  
+              <div className="col-10 justify-content-center row">
+                 <img src={MuestraMenuRes.url} className="center-d-inline-block " /> 
+                  </div>
+            </FormGroup>
+            <FormGroup>
+            <Label>{MuestraMenuRes.nombre}</Label> 
+            {MuestraMenuRes.descripcion}
+            </FormGroup>
+          </ModalBody>
+          <ModalFooter>
+          <Button className="btn-danger"onClick={CloseModal}>
+             Cerrar
+         </Button >
+          <Button onClick={AgregarProducto} className='btn btn-success m-4'>Agregar al carrito</Button>
+          </ModalFooter>
+        </Modal>
         </>
           
         </div>
