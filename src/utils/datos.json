@@ -43,8 +43,13 @@
         { "nombre":"logoCircle","id":"24","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Logos%2Flogocircle.png?alt=media&token=9910b245-3c41-4207-b7b9-2d11081add66","descripcion":" Logo circular"}
     ],
 
-    "Contactanos":[
-        
+    "Nosotros":[
+        {"nombre":"Juana Escobar","id":"55","rol":"Encargada","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Fpersonal2%402x.jpg?alt=media&token=093ad224-dc41-418f-93d2-831ba7a19847"},
+        {"nombre":"Estefania Osorio","id":"56","rol":"Gerente","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Fpersonal3%402x.jpg?alt=media&token=6e5fb208-25d9-4157-b984-69582bb12fcc"},
+        {"nombre":"Juan Arias","id":"57","rol":"Chef","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Fpersonal5%402x.jpg?alt=media&token=9371316d-e3c4-4355-8962-3bcdcbc182db"},
+        {"nombre":"Luisa Velasquez","id":"58","rol":"Cocinero","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Fpersonal4%402x.jpg?alt=media&token=8ef1bce5-d0fc-4991-bdd3-28b28b6d7283"},
+        {"nombre":"Camila Ayala","id":"59","rol":"Recepcionista","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Ftestimonio1%402x.jpg?alt=media&token=0f46a294-549f-490f-8193-cd531da2a12c"},
+        {"nombre":"Lucia Sanchez","id":"60","rol":"Fundadora","url":"https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2Fpersonal6%402x.jpg?alt=media&token=8fa0e188-f4b6-49b5-867e-8386bc79b978"}
     ],
 
     "ComentariosRes":[

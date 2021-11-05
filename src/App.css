@@ -34,32 +34,32 @@
     float: left;
     margin-right: 15%;
 }
-.card{
+/* .card{
     width: 18rem;
     text-align: center;
     background-color: #CBEEF3;
     width: 25%;
     margin: 0px;
     margin-right: 60%;
-}
+} */
 body{
     font-family: Arial, Helvetica, sans-serifs;
     font-size: 18px;
     background-image: url(https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Header%2Fheader3.png?alt=media&token=a95ddf62-6f59-4677-9ab5-d646b6e46047);
     text-align: center;
 }
-.btn{
+.boton{
     background-color: #DD2D4A;
     border: 0;
     border-radius: 3px;
     border-color: #880D1E;
     font-size: 24px;
     color: #880d1e;
-}
-.btn:hover{
+} 
+ .boton:hover{
     background-color: #CBEEF3;
     color: #880d1e;
-}
+} 
 .FondoFest{
     background-color: #F26A8D;
 }
@@ -149,7 +149,10 @@ section .section-title {
     text-align: center;
     margin-top: 20px;
 }
-
+.imag{
+    width: 80%;
+    height: 300px;
+}
 .card1{
     background-color: #CBEEF3;
 }

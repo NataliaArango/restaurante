@@ -1,9 +1,8 @@
 import React,{useState,useRef} from 'react';
 import swal from 'sweetalert';
-//import Error from './Error';
-import emailjs from 'emailjs-com'
-import styled from '@emotion/styled'
-import {Link} from 'react-router-dom'
+import emailjs from 'emailjs-com';
+import styled from '@emotion/styled';
+import {Link} from 'react-router-dom';
 const Reserva = () => {
 
     const [Error, UpdateError] = useState(false);
@@ -75,10 +74,18 @@ const Reserva = () => {
         icon: "success",
         button: "Cerrar",
         });
-}
+    }
+        const Advertencia = ()=>{
+            swal({
+            title: "Todos los campos son obligatorios",
+            text: "Sal&Sal",
+            icon: "warning",
+            button: "Cerrar",
+            });
+        }
     return (
         <div>
-        {Error ?<p className="alert alert-danger text-center p-2 mb-5">Todos los campos son obligatorios</p>:null}
+        {Error ? Advertencia() :null}
        <div className="container">
            <div className="row">
                <form 
@@ -88,7 +95,7 @@ const Reserva = () => {
               >
                    <fieldset>
                        <Contenedor >Realizar Reserva</Contenedor>
-                       <div className="so row">
+                       <div className="row">
                            <div className="col-md-4">
                                <div className="form-group">
                                    <label className="m-4">Nombre</label>
