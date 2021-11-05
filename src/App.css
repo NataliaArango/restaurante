@@ -237,32 +237,12 @@ H1{
 .juntmenu{
     overflow: hidden;
 }
-.card{
-    width: 18rem;
-    text-align: center;
-    background-color: #CBEEF3;
-    width: 25%;
-    margin: 0px;
-    margin-right: 60%;
-}
 .card2{
     text-align: center;
     color: #880D1E;
 }
 .card-text1{
     font-weight: bold ;
-}
-.btn {
-    background-color: #DD2D4A;
-    border: 0;
-    border-radius: 3px;
-    border-color: #880D1E;
-    font-size: 24px;
-    color: #880d1e;
-}
-.btn:hover{
-    background-color: #CBEEF3;
-    color: #880d1e;
 }
 .gmodal{
     text-align: center;

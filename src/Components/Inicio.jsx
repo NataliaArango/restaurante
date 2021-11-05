@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Carousel from 'react-bootstrap/Carousel'
 
 const Inicio = () => {
     return (
@@ -33,49 +33,46 @@ const Inicio = () => {
           </section>
 
 
+          <div>
+            <Carousel fade>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2FHELADOS%20Y%20POSTRES.png?alt=media&token=536924e8-a587-4c16-8520-2acb5ea72132"
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h3>First slide label</h3>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Menu%2Fmenu2.jpg?alt=media&token=c848d47d-4be4-49ec-ba90-7ed109a3a2e2"
+                  alt="Second slide"
+                />
 
+                <Carousel.Caption>
+                  <h3>Second slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Menu%2Fmenu4.jpg?alt=media&token=09ab69f5-6116-44fe-a754-7b69040659af"
+                  alt="Third slide"
+                />
 
-          <section id="recomendados">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Nosotros%2FHELADOS%20Y%20POSTRES.png?alt=media&token=536924e8-a587-4c16-8520-2acb5ea72132" class="d-block w-100" alt="..."/>
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Menu%2Fmenu2.jpg?alt=media&token=c848d47d-4be4-49ec-ba90-7ed109a3a2e2"  class="d-block w-100" alt="..."/>
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/restaurante-fe3ed.appspot.com/o/Menu%2Fmenu4.jpg?alt=media&token=09ab69f5-6116-44fe-a754-7b69040659af"  class="d-block w-100" alt="..."/>
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-         </section>
+                <Carousel.Caption>
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
 
+            </div>
 
 
 
@@ -180,11 +177,7 @@ const Inicio = () => {
         </button>
       </div>
     </section>
-
-
-
-
-         
+    
         </div>
     );
 }
