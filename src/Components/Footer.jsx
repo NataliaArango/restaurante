@@ -10,7 +10,7 @@ const Footer = () => {
                                 <div class="col-xs-12 col-sm-4 col-md-4">
                                     <h5>Mapa del sitio</h5>
                                     <ul class="list-unstyled quick-links">
-                                        <li> <Link to={'/inicio'} className="nav-link">Inicio</Link></li>
+                                        <li> <Link to={'/'} className="nav-link">Inicio</Link></li>
                                         <li> <Link to={'/menu'} className="nav-link">Menú</Link></li>
                                         <li><Link to={'/servicios'} className="nav-link">Servicios</Link></li>
                                         <li><Link to={'/contactenos'} className="nav-link">Contactanos</Link></li>

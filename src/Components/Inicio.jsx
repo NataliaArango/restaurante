@@ -3,8 +3,8 @@ import React from 'react';
 
 const Inicio = () => {
     return (
-        <div>
-            <body>
+        <div class="todo">
+            
             <section class="fondolog">
                 <div>
                         <img class="log"
@@ -184,7 +184,7 @@ const Inicio = () => {
 
 
 
-         </body>
+         
         </div>
     );
 }

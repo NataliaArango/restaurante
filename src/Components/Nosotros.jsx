@@ -4,7 +4,6 @@ import React from 'react';
 const Nosotros = () => {
     return ( 
          <div>
-
 <section id="historia">
       <div className="container mt-5">
         <div className="row">

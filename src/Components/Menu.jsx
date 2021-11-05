@@ -13,7 +13,7 @@ const Menu = () => {
       setisOpen(false);
     };
     return  (
-        <div className="container">
+        <div className="menu1 container">
 
             <div className="row justify-content-center">
                 <h2 className="mt-5 mb-5 m-lg-5 col-md-9 display-3">Animate a probar nuestros platillos</h2>
@@ -52,7 +52,9 @@ const Menu = () => {
                     </Button>
                 </div>
 
-                <h2 className="encabezado">Realiza pedidos en Linea</h2>
+                    <h3 className="encabezado">Realiza pedidos en Linea</h3>
+                </div>
+                
 
                 <div className="col-12 p-5 m-5 row">
                     {DateService.MuestraMenuRes.map((e)=>(
@@ -63,7 +65,7 @@ const Menu = () => {
                     ))}
                 </div>       
             </div>
-        </div>
+        
     );
 }
 

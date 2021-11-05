@@ -2,10 +2,10 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 const CardService = ({datosRes}) => {
     return (  
-        <div className="card col-md-5 m-lg-4">
+        <div className="card2 col-md-5 m-lg-4">
         <img src={datosRes.url} className="card-img-top img-responsive center-d-inline-block"/>
         <div className="card-body">
-          <p className="card-text">{datosRes.nombre}</p>
+          <p className="card-text1">{datosRes.nombre}</p>
           <p className="card-text">{datosRes.descripcion}</p>
         </div>
           <div className="card-footer">
