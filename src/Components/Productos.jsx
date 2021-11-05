@@ -33,7 +33,7 @@ const Productos = ({MuestraMenuRes,setcarrocompra,carrocompra}) => {
           </ModalHeader>
           <ModalBody>
             <FormGroup>  
-              <div className="col-10 justify-content-center row">
+              <div className="gmodal justify-content-center row">
                  <img src={MuestraMenuRes.url} className="center-d-inline-block " /> 
                   </div>
             </FormGroup>
